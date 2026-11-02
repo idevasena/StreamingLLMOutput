@@ -1,0 +1,114 @@
+{
+  "kl": 0.0,
+  "top1": 1.0,
+  "repairable": false,
+  "detail": {
+    "kl_mean": 0.0,
+    "kl_max": 0.0,
+    "top1_agreement": 1.0,
+    "topk_agreement": 1.0,
+    "n": 16,
+    "mode": "selector",
+    "codec": "none",
+    "per_query": [
+      {
+        "id": "q0",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q1",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q2",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q3",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q4",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q5",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q6",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q7",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q8",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q9",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q10",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q11",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q12",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q13",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q14",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      },
+      {
+        "id": "q15",
+        "kl": 0.0,
+        "top1": 1,
+        "topk": 1.0
+      }
+    ]
+  },
+  "algorithm": "full",
+  "model": "Qwen/Qwen2.5-7B-Instruct"
+}

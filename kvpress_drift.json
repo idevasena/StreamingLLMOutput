@@ -1,0 +1,114 @@
+{
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "attn": "eager",
+ "context_tokens": 5662,
+ "compression_ratio": 0.75,
+ "needle_offsets": [
+  5286,
+  10616,
+  15943,
+  21273
+ ],
+ "dense_top1": {
+  "What is the access code for the north vault?": " The",
+  "From which pier does the courier's ferry depart?": " The",
+  "What is the archive server named?": " The",
+  "Who signs the quarterly audit?": " The"
+ },
+ "methods": {
+  "streaming_llm": {
+   "kl_mean": 0.19637121202322305,
+   "kl_max": 0.4764447510242462,
+   "kl_per_q": [
+    8.32597870612517e-05,
+    0.4764447510242462,
+    0.283073365688324,
+    0.025883471593260765
+   ],
+   "top1": 1.0,
+   "top5": 1.0,
+   "kept_tokens": 1415,
+   "kept_frac": 0.24991169198163193,
+   "seconds": 1.5
+  },
+  "snapkv": {
+   "kl_mean": 0.060769142645767715,
+   "kl_max": 0.11245561391115189,
+   "kl_per_q": [
+    4.408906170283444e-05,
+    0.11245561391115189,
+    0.09446755051612854,
+    0.0361093170940876
+   ],
+   "top1": 1.0,
+   "top5": 1.0,
+   "kept_tokens": 1415,
+   "kept_frac": 0.24991169198163193,
+   "seconds": 1.4
+  },
+  "tova": {
+   "kl_mean": 0.038959586624969234,
+   "kl_max": 0.10236908495426178,
+   "kl_per_q": [
+    1.954419531102758e-05,
+    0.10236908495426178,
+    0.044049400836229324,
+    0.009400316514074802
+   ],
+   "top1": 1.0,
+   "top5": 1.0,
+   "kept_tokens": 1415,
+   "kept_frac": 0.24991169198163193,
+   "seconds": 1.4
+  },
+  "expected_attention": {
+   "kl_mean": 0.1861066773199127,
+   "kl_max": 0.5219845175743103,
+   "kl_per_q": [
+    6.808122270740569e-05,
+    0.5219845175743103,
+    0.20779530704021454,
+    0.014578803442418575
+   ],
+   "top1": 1.0,
+   "top5": 1.0,
+   "kept_tokens": 1415,
+   "kept_frac": 0.24991169198163193,
+   "seconds": 1.5
+  },
+  "knorm": {
+   "kl_mean": 0.2576111587914056,
+   "kl_max": 0.5317550301551819,
+   "kl_per_q": [
+    0.00029054106562398374,
+    0.44318637251853943,
+    0.5317550301551819,
+    0.05521269142627716
+   ],
+   "top1": 1.0,
+   "top5": 1.0,
+   "kept_tokens": 1415,
+   "kept_frac": 0.24991169198163193,
+   "seconds": 1.4
+  },
+  "pyramidkv": {
+   "error": "RuntimeError: The size of tensor a (2676) must match the size of tensor b (2775) at non-singleton dimension 3",
+   "seconds": 1.3
+  },
+  "h2o": {
+   "kl_mean": 0.08899776342423138,
+   "kl_max": 0.20076100528240204,
+   "kl_per_q": [
+    4.5252334530232474e-05,
+    0.20076100528240204,
+    0.12811726331710815,
+    0.027067532762885094
+   ],
+   "top1": 1.0,
+   "top5": 1.0,
+   "kept_tokens": 1415,
+   "kept_frac": 0.24991169198163193,
+   "seconds": 1.5
+  }
+ }
+}

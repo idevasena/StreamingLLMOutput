@@ -1,0 +1,8 @@
+[
+  {
+    "budget_k": 64,
+    "status": "FAIL",
+    "classification": "SAFE_ONLY_WITH_CUSTOM_CONNECTOR",
+    "danger_score": 0.8965
+  }
+]

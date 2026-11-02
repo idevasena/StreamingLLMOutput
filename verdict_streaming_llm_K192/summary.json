@@ -1,0 +1,8 @@
+[
+  {
+    "budget_k": 192,
+    "status": "FAIL",
+    "classification": "SAFE_FOR_PREFIX_OFFLOAD",
+    "danger_score": 0.5757
+  }
+]

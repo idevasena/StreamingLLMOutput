@@ -1,0 +1,26 @@
+[
+  {
+    "budget_k": 8,
+    "status": "WARN",
+    "classification": "SAFE_FOR_PREFIX_OFFLOAD",
+    "danger_score": 0.3406
+  },
+  {
+    "budget_k": 16,
+    "status": "WARN",
+    "classification": "SAFE_FOR_PREFIX_OFFLOAD",
+    "danger_score": 0.3312
+  },
+  {
+    "budget_k": 32,
+    "status": "WARN",
+    "classification": "SAFE_FOR_PREFIX_OFFLOAD",
+    "danger_score": 0.3125
+  },
+  {
+    "budget_k": 64,
+    "status": "WARN",
+    "classification": "SAFE_FOR_PREFIX_OFFLOAD",
+    "danger_score": 0.275
+  }
+]

@@ -1,0 +1,2140 @@
+{
+  "identity": {
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "cartridge_id": "cart",
+    "prefix_hash": "58989285e6bc96d10d0818570275a38b2628917e2f53d3ad1d699422c3ab4f29",
+    "block_size": 16,
+    "num_blocks": 256,
+    "dtype": "bfloat16",
+    "kv_shape": [
+      28,
+      1,
+      null,
+      4096,
+      null
+    ],
+    "kv_bytes": 0,
+    "rope_config_hash": null
+  },
+  "algorithm": "streaming_llm",
+  "policy": "prefix_cache",
+  "cache_key_fields": [
+    "prefix_hash"
+  ],
+  "status": "WARN",
+  "classification": "SAFE_FOR_PREFIX_OFFLOAD",
+  "danger_score": 0.3125,
+  "metrics": {
+    "num_blocks": 256,
+    "block_size": 16,
+    "n_intact": 32,
+    "n_partial": 0,
+    "n_missing": 224,
+    "n_selected": 32,
+    "pre": 0.125,
+    "anchor_survival": 1.0,
+    "recent_survival": 1.0,
+    "contiguous_prefix_survival": 1,
+    "partial_block_rate": 0.0,
+    "read_ranges": 2,
+    "read_amplification": 0.0625,
+    "pre_mean": 0.125,
+    "anchor_survival_mean": 1.0,
+    "manifest_stability": 1,
+    "artifact_stability": 1,
+    "same_query_artifact_count": 1,
+    "cr_mean": 8.0,
+    "cr_cv": 0.0,
+    "n_queries": 16,
+    "budget_k": 32
+  },
+  "violations": [],
+  "warnings": [
+    "PRE 0.125 below threshold 0.7"
+  ],
+  "recommendations": [],
+  "block_survival": [
+    {
+      "block": 0,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 1,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 2,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 3,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 4,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 5,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 6,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 7,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 8,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 9,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 10,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 11,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 12,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 13,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 14,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 15,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 16,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 17,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 18,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 19,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 20,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 21,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 22,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 23,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 24,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 25,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 26,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 27,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 28,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 29,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 30,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 31,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 32,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 33,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 34,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 35,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 36,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 37,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 38,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 39,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 40,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 41,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 42,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 43,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 44,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 45,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 46,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 47,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 48,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 49,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 50,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 51,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 52,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 53,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 54,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 55,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 56,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 57,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 58,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 59,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 60,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 61,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 62,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 63,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 64,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 65,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 66,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 67,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 68,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 69,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 70,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 71,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 72,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 73,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 74,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 75,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 76,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 77,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 78,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 79,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 80,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 81,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 82,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 83,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 84,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 85,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 86,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 87,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 88,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 89,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 90,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 91,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 92,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 93,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 94,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 95,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 96,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 97,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 98,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 99,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 100,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 101,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 102,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 103,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 104,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 105,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 106,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 107,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 108,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 109,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 110,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 111,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 112,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 113,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 114,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 115,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 116,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 117,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 118,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 119,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 120,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 121,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 122,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 123,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 124,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 125,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 126,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 127,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 128,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 129,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 130,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 131,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 132,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 133,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 134,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 135,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 136,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 137,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 138,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 139,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 140,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 141,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 142,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 143,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 144,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 145,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 146,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 147,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 148,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 149,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 150,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 151,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 152,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 153,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 154,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 155,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 156,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 157,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 158,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 159,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 160,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 161,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 162,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 163,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 164,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 165,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 166,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 167,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 168,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 169,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 170,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 171,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 172,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 173,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 174,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 175,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 176,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 177,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 178,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 179,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 180,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 181,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 182,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 183,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 184,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 185,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 186,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 187,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 188,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 189,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 190,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 191,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 192,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 193,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 194,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 195,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 196,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 197,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 198,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 199,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 200,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 201,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 202,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 203,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 204,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 205,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 206,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 207,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 208,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 209,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 210,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 211,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 212,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 213,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 214,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 215,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 216,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 217,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 218,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 219,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 220,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 221,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 222,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 223,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 224,
+      "status": "missing",
+      "weight": 1.0,
+      "selected": false
+    },
+    {
+      "block": 225,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 226,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 227,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 228,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 229,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 230,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 231,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 232,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 233,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 234,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 235,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 236,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 237,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 238,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 239,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 240,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 241,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 242,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 243,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 244,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 245,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 246,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 247,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 248,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 249,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 250,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 251,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 252,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 253,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 254,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    },
+    {
+      "block": 255,
+      "status": "intact",
+      "weight": 1.0,
+      "selected": true
+    }
+  ],
+  "per_query_selected": [
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    [
+      0,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255
+    ]
+  ]
+}

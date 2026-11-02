@@ -1,0 +1,8 @@
+[
+  {
+    "budget_k": 64,
+    "status": "FAIL",
+    "classification": "DANGEROUS_FOR_PREFIX_SHARING",
+    "danger_score": 1.0
+  }
+]
